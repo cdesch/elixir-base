@@ -1,6 +1,6 @@
 # elixir-base
 
-A Base Image for [Elixir](https://elixir-lang.org/) Applications
+A [Base Image](https://hub.docker.com/r/cdesch/elixir-base) for [Elixir](https://elixir-lang.org/) Applications using the [Elixir Image](https://hub.docker.com/_/elixir)
 
 ## Build
 
