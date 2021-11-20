@@ -9,3 +9,5 @@ Build and Push to Docker Hub
     docker build -t cdesch/elixir-base -t cdesch/elixir-base:1.12-alpine .
     docker push cdesch/elixir-base
     docker push cdesch/elixir-base:1.12-alpine
+
+    elixir:1.12.3-alpine

@@ -1,4 +1,7 @@
-FROM elixir:1.12-alpine AS base
+ARG IMAGE_VERSION=1.12-alpine
+
+# FROM elixir:1.12.3-alpine AS base
+FROM elixir:$IMAGE_VERSION AS base
 
 RUN mkdir /app
 WORKDIR /app
