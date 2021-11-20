@@ -1,7 +1,11 @@
 ARG IMAGE_VERSION=1.12-alpine
 
-# FROM elixir:1.12.3-alpine AS base
 FROM elixir:$IMAGE_VERSION AS base
+
+LABEL maintainer="CJ"
+LABEL version="1.0"
+LABEL license="MIT"
+LABEL description="Base Elixir Image for Elixir Applications"
 
 RUN mkdir /app
 WORKDIR /app

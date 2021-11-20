@@ -2,7 +2,18 @@
 
 A [Base Image](https://hub.docker.com/r/cdesch/elixir-base) for [Elixir](https://elixir-lang.org/) Applications using the [Elixir Image](https://hub.docker.com/_/elixir)
 
-## Build
+## Build Script
+
+Build with default image Version
+
+    ./build.sh
+
+Build a specific version
+
+    ./build.sh 1.12-alpine
+    ./build.sh 1.12.3-alpine
+
+## Docker Build
 
 Build and Push to Docker Hub
 
