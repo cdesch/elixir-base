@@ -14,6 +14,7 @@ Build a specific version
     ./build.sh 1.12.3-alpine
     ./build.sh 1.13-alpine
     ./build.sh 1.13.1-alpine
+    ./build.sh 1.13.2-alpine
 
 ## Docker Build
 
