@@ -18,7 +18,7 @@ echo "$1"
 
 # Build the Version
 echo "Building Container Image elixir:$IMAGE_VERSION"
-docker build -t cdesch/elixir-base:$IMAGE_VERSION   . 
+docker build --build-arg IMAGE_VERSION=$IMAGE_VERSION -t cdesch/elixir-base:$IMAGE_VERSION   . 
 echo "Finished Building!"
 
 # Push to Docker Hub
